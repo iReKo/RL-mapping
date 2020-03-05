@@ -1,0 +1,4 @@
+## Tips
+- RealRoom内のPointの動きを変換したものがVirtualRoom内のPointの動きとして出力される
+    - 各PointのTransformをwriteもしくはreadすることで動きの変換を利用できる
+- 物体は各RoomのObstacles内にぶら下げる．新たに物体を作成する場合，LayerをObstacleにしないと物体として認識されない．
